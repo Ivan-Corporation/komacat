@@ -10,6 +10,7 @@ import {
   Coins,
 } from "lucide-react";
 import komacat from "../../public/komacat.png";
+import komacatIcon from "../../public/KOMA.svg";
 
 const CONTRACT_ADDRESS = "0xCDb23CF7B56328F304D61cb91F2a8df076c30839";
 
@@ -77,6 +78,7 @@ export default function Home() {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent mb-6">
             KOMACAT
             <span className="text-blue-600 dark:text-blue-400"> ERC-20</span>
+            <img src={komacatIcon.src} alt="KOMACAT" className="w-8 h-8 inline" />
           </h1>
 
           <p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-10">
