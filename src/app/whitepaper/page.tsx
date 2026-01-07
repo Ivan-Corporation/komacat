@@ -577,7 +577,7 @@ const resources = [
   },
   {
     title: "GitHub Repository",
-    url: "https://github.com",
+    url: "https://github.com/Ivan-Corporation/komacat",
     icon: <Code className="w-5 h-5" />,
     description: "Complete source code and deployment scripts"
   },
